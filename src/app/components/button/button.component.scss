@@ -1,0 +1,15 @@
+@import "../../../variables.scss";
+
+.button {
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: $primary-text;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.button:hover {
+  color: white;
+  background-color: $red-text;
+}

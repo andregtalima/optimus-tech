@@ -1,0 +1,27 @@
+@import "../../../variables.scss";
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    li {
+      list-style-type: none;
+      color: $primary-text;
+      cursor: pointer;
+    }
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
